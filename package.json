@@ -1,6 +1,6 @@
 {
   "name": "param-type",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Get the type of every parameter",
   "main": "src/paramType.js",
   "scripts": {
@@ -24,5 +24,10 @@
     "typescript": "^3.0.3"
   },
   "author": "kmdrGroch <bartosz.leoniak@wp.pl>",
-  "license": "MIT"
+  "license": "MIT",
+  "nyc": {
+    "reporter": [
+      "lcov"
+    ]
+  }
 }
