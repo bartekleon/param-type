@@ -175,23 +175,23 @@ paramType x 44,012,200 ops/sec ±0.15% (96 runs sampled)
 kindOf x 23,131,852 ops/sec ±0.33% (94 runs sampled)
 
 22 of 54; paramType: error kindOf: error; Error
-paramType x 44,853,399 ops/sec ±0.24% (97 runs sampled)
+paramType x 854,936,723 ops/sec ±0.21% (95 runs sampled)
 kindOf x 826,491,491 ops/sec ±0.10% (95 runs sampled)
 
 23 of 54; paramType: typeerror kindOf: error; TypeError
-paramType x 43,166,758 ops/sec ±0.56% (90 runs sampled)
+paramType x 848,079,116 ops/sec ±0.29% (94 runs sampled)
 kindOf x 823,982,705 ops/sec ±0.08% (94 runs sampled)
 
 24 of 54; paramType: syntaxerror kindOf: error; SyntaxError
-paramType x 41,832,647 ops/sec ±0.22% (97 runs sampled)
+paramType x 848,539,406 ops/sec ±0.22% (96 runs sampled)
 kindOf x 787,520,028 ops/sec ±2.13% (93 runs sampled)
 
 25 of 54; paramType: referenceerror kindOf: error; ReferenceError
-paramType x 40,170,720 ops/sec ±0.44% (93 runs sampled)
+paramType x 849,306,191 ops/sec ±0.15% (94 runs sampled)
 kindOf x 822,882,350 ops/sec ±0.09% (98 runs sampled)
 
 26 of 54; paramType: rangeerror kindOf: error; RangeError
-paramType x 39,995,764 ops/sec ±0.28% (96 runs sampled)
+paramType x 848,792,554 ops/sec ±0.17% (96 runs sampled)
 kindOf x 822,489,308 ops/sec ±0.09% (95 runs sampled)
 
 27 of 54; paramType: promise kindOf: promise; Promise { 123 }
@@ -309,7 +309,7 @@ kindOf x 11,517,890 ops/sec ±0.39% (96 runs sampled)
 
 ## Better type checking
 
-Returns specific `Error` (TypeError, ReferenceError) type instead of `object`
+Returns specific `Error` (TypeError, ReferenceError) type instead of `error`
 
 ## Test
 

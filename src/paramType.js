@@ -20,7 +20,7 @@ function paramType(p) {
             if (Array.isArray(p))
                 return "array";
             if (p instanceof Error)
-                return p.constructor.name.toLowerCase();
+                return p.name.toLowerCase();
             if (p instanceof Date)
                 return "date";
             if (p instanceof RegExp)

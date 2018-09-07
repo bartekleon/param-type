@@ -18,7 +18,7 @@ function paramType(p: any): string {
       return p.constructor.name === "GeneratorFunction" ? "generatorfunction" : "function";
     case "object":
       if (Array.isArray(p)) return "array";
-      if (p instanceof Error) return p.constructor.name.toLowerCase();
+      if (p instanceof Error) return p.name.toLowerCase();
       if (p instanceof Date) return "date";
       if (p instanceof RegExp) return "regexp";
       if (p instanceof Buffer) return "buffer";
