@@ -1,5 +1,3 @@
-"use strict";
-
 const toString: () => string = Object.prototype.toString;
 
 /**
