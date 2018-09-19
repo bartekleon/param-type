@@ -1,5 +1,8 @@
 # param-type [![NPM version](https://img.shields.io/npm/v/param-type.svg?style=flat)](https://www.npmjs.com/package/param-type)
 
+Speed and accuracy - that is what param-type offers. Thanks to multiple benchmarks it is **as fast as it is possible**!
+Unit tests make sure that **each case** is checked and works as intended.
+
 ## Install
 
 Install with [npm](https://www.npmjs.com/):
