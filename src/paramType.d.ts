@@ -1,8 +1,6 @@
 /**
- * @name paramType
  * @author kmdrGroch
- * @param { any } p
- * @returns { string } real type of element
+ * @returns Real type of element
  */
-declare function paramType(p: any): string;
+declare const paramType: (p: any) => string;
 export default paramType;

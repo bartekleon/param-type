@@ -43,6 +43,8 @@ paramType(Object.create(null)); //=> 'object'
 
 paramType(new Test()); //=> 'object'
 
+paramType(class Test {}); //=> 'class'
+
 paramType(new Date()); //=> 'date'
 
 paramType([1, 2, 3]); //=> 'array'

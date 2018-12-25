@@ -1,6 +1,6 @@
-import { Suite } from "benchmark";
+import { Suite } from 'benchmark';
 
-import paramType from "./src/paramType";
+import paramType from './src/paramType';
 
 const map = new Map();
 const weakmap = new WeakMap();
@@ -8,7 +8,7 @@ const set = new Set();
 const weakset = new WeakSet();
 class Test {
   public get() {
-    return "hello";
+    return this;
   }
 }
 /* tslint:disable */
