@@ -1,4 +1,5 @@
 import { expect } from 'chai';
+
 import paramType from './paramType';
 /* tslint:disable */
 describe('paramType', () => {
