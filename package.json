@@ -1,6 +1,6 @@
 {
   "name": "param-type",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Get the type of every parameter",
   "main": "src/paramType.js",
   "scripts": {
@@ -8,20 +8,20 @@
     "clean": "rimraf \"+(test|src)/**/*+(.d.ts|.js|.map)\" .nyc_output coverage",
     "prebuild": "npm run clean && tslint -p tsconfig.json",
     "build": "tsc -p .",
-    "test": "npm run build && nyc --include src/**/*.js --reporter=html --report-dir=coverage --check-coverage mocha \" src/**/*.spec.js\""
+    "test": "npm run build && nyc --include src/paramType.js --reporter=html --report-dir=coverage --check-coverage mocha src/paramType.spec.js"
   },
   "devDependencies": {
-    "@types/benchmark": "^1.0.31",
-    "@types/chai": "^4.1.7",
-    "@types/mocha": "^5.2.6",
-    "@types/node": "^11.9.3",
-    "benchmark": "^2.1.4",
-    "chai": "^4.2.0",
-    "mocha": "^6.0.0",
-    "nyc": "^13.2.0",
-    "rimraf": "^2.6.3",
-    "tslint": "^5.12.1",
-    "typescript": "^3.3.3"
+    "@types/benchmark": "1.0.31",
+    "@types/chai": "4.1.7",
+    "@types/mocha": "5.2.7",
+    "@types/node": "12.6.8",
+    "benchmark": "2.1.4",
+    "chai": "4.2.0",
+    "mocha": "6.2.0",
+    "nyc": "13.3.0",
+    "rimraf": "2.6.3",
+    "tslint": "5.18.0",
+    "typescript": "3.5.3"
   },
   "author": "kmdrGroch <bartosz.leoniak@wp.pl>",
   "license": "MIT"
