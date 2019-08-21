@@ -20,7 +20,7 @@
     "mocha": "6.2.0",
     "nyc": "13.3.0",
     "rimraf": "2.6.3",
-    "tslint": "5.18.0",
+    "tslint": "5.19.0",
     "typescript": "3.5.3"
   },
   "author": "kmdrGroch <bartosz.leoniak@wp.pl>",
