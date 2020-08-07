@@ -348,3 +348,6 @@ targets.forEach((target, index) => {
 ### License
 Copyright © 2018, [kmdrGroch](https://github.com/kmdrgroch).
 Released under the [MIT License](LICENSE).
+
+### Note
+The code will work for node >= 8, although there is a possibility that development tools won't work for some versions.
